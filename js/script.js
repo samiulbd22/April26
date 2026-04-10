@@ -187,7 +187,7 @@ const members = {
         totalPayable
     },
     
-    "01909752631":{
+    "01716726510":{
         name:"Saiful Islam",
         join:"new",//01/04/25
         // pre-previous month list
@@ -196,7 +196,7 @@ const members = {
         previous_dining_cost:0,
         payment             :undefined,
         // running month
-        stay_cost       :0,
+        stay_cost       :2800,
         garage_cost     :0,
         running_payable :0,
         running_paid    :0,
@@ -505,7 +505,7 @@ function opener(){
          || memberNumber    === "01780608997"   || memberNumber === "01581515641"
          || memberNumber    === "01537664564"   || memberNumber === "01880384113"
          ||memberNumber     ==="01521706612"    || memberNumber === "01821245430"||
-            memberNumber    === "01934147404"   ||memberNumber  ==="01909752631"){
+            memberNumber    === "01934147404"   ||memberNumber  ==="01716726510"){
             document.getElementById("user-btn").style.opacity = 1;
             document.getElementById("submitBtn").style.display = 'inline-block';
             /*frontPage*///runningMonthPayment
@@ -699,11 +699,11 @@ function opener(){
                                                 <td>${members["01934147404"].runningMonth().diningDue}</td>
                                             </tr>
                                             <tr>
-                                                <td>${members["01909752631"].name}</td>
-                                                <td>${members["01909752631"].runningDiningCost()}</td>
-                                                <td>${members["01909752631"].runningMonth().diningAdd}</td>
-                                                <td class="getMeals">${members["01909752631"].runningMonth().remainDining}</td>
-                                                <td>${members["01909752631"].runningMonth().diningDue}</td>
+                                                <td>${members["01716726510"].name}</td>
+                                                <td>${members["01716726510"].runningDiningCost()}</td>
+                                                <td>${members["01716726510"].runningMonth().diningAdd}</td>
+                                                <td class="getMeals">${members["01716726510"].runningMonth().remainDining}</td>
+                                                <td>${members["01716726510"].runningMonth().diningDue}</td>
                                             </tr>
                                             <tr>
                                                 <td>${members["01521706612"].name}</td>
@@ -806,11 +806,11 @@ function opener(){
                                                 <td class="due-me">${members["01934147404"].runningMonth().diningDue}</td>
                                             </tr>
                                             <tr>
-                                                <th>${members["01909752631"].name}</th>
-                                                <td class="payable">${members["01909752631"].totalPayable()}</td>
-                                                <td class="paid-me">${members["01909752631"].running_paid}</td>
-                                                <td class="dining-me">${members["01909752631"].runningDiningCost()}</td>
-                                                <td class="due-me">${members["01909752631"].runningMonth().diningDue}</td>
+                                                <th>${members["01716726510"].name}</th>
+                                                <td class="payable">${members["01716726510"].totalPayable()}</td>
+                                                <td class="paid-me">${members["01716726510"].running_paid}</td>
+                                                <td class="dining-me">${members["01716726510"].runningDiningCost()}</td>
+                                                <td class="due-me">${members["01716726510"].runningMonth().diningDue}</td>
                                             </tr>
                                             <tr>
                                                 <th>${members["01880384113"].name}</th>
