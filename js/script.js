@@ -198,7 +198,7 @@ const members = {
         // running month
         stay_cost       :2800,
         garage_cost     :0,
-        running_payable :0,
+        running_payable :3800,
         running_paid    :5000,
         running_meal    :26,
         // method calling
