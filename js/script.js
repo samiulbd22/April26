@@ -113,7 +113,7 @@ const members = {
         post_payable        :2917,
         previous_paid       :4000,
         previous_dining_cost:1625,
-        payment             :{"01/04/26-Cash":4000,"09/04/26-Cash":1000},
+        payment             :{"01/04/26-Cash":4000,"09/04/26-Cash":1000,"21/04/26-Cash":1000},
         // running month{"04/08/25-Cash":4550}
         stay_cost       :2300,
         garage_cost     :0,
